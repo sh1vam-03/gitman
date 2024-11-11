@@ -88,7 +88,7 @@ python gitman.py -k Tesla
 If you have a custom list of dorking keywords (such as `api_key`, `password`, etc.), you can specify the file like this:
 
 ```bash
-python gitman.py -k Google,Tesla -f custom_keywords.txt
+python gitman.py -k Google,Tesla -f custom_github_dorking_keywords.txt
 ```
 
 ### 🖥️ Example Output:
