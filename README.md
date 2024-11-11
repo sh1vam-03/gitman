@@ -1,4 +1,4 @@
-# gitman - ##GitHub Dorking URL Generator
+# gitman - GitHub Dorking URL Generator
 
 A tool for security researchers, penetration testers, and bug bounty hunters to identify potentially sensitive or exposed data within public GitHub repositories. This script leverages **GitHub dorking** techniques to help you find misconfigurations, exposed secrets, and vulnerable code that could pose a security risk.
 
