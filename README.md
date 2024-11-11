@@ -3,6 +3,7 @@
 A tool for security researchers, penetration testers, and bug bounty hunters to identify potentially sensitive or exposed data within public GitHub repositories. This script leverages **GitHub dorking** techniques to help you find misconfigurations, exposed secrets, and vulnerable code that could pose a security risk.
 
 > **Warning**: This tool is intended for **ethical hacking** and **security research** only. Always ensure you have explicit permission before testing any systems, and respect the terms of service for the platforms you are interacting with.
+---
 
 ## 🚀 Quick Start
 
@@ -11,12 +12,10 @@ A tool for security researchers, penetration testers, and bug bounty hunters to 
 - **Ethical Considerations**: [What You Need to Know](#ethical-considerations)
 - **License**: [MIT License](#license)
 
----
 
 ## ⚙️ Table of Contents
 
 - [🚀 Quick Start](#-quick-start)
-- [📋 Project Overview](#-project-overview)
 - [💻 Features](#features)
 - [🔍 Use Cases](#use-cases)
 - [🛠 Installation](#installation)
@@ -49,6 +48,7 @@ A tool for security researchers, penetration testers, and bug bounty hunters to 
 - Investigate repositories related to specific companies or technologies to identify potential security flaws.
 - Locate configuration files that may have been accidentally uploaded and are vulnerable to exploitation.
 
+---
 ## Requirements
 
 - Python 3.x
@@ -101,6 +101,7 @@ Generated GitHub Search URLs:
 ```
 
 These URLs direct you to GitHub search results that contain the target company name and the dorking keyword, excluding irrelevant entries like "test" or "example".
+---
 
 ### Input File Format
 
