@@ -1,6 +1,4 @@
-# gitman
-
-# GitHub Dorking URL Generator
+# gitman - ##GitHub Dorking URL Generator
 
 A tool for security researchers, penetration testers, and bug bounty hunters to identify potentially sensitive or exposed data within public GitHub repositories. This script leverages **GitHub dorking** techniques to help you find misconfigurations, exposed secrets, and vulnerable code that could pose a security risk.
 
@@ -47,17 +45,17 @@ The script accepts the company name and an optional path to a custom file contai
 ### Basic Usage (with default keyword file):
 
 ```bash
-python gitman.py AcmeCorp
+python gitman.py Google
 ```
 
-This will generate search URLs using the company name `AcmeCorp` and the default `github_dorking_keywords.txt` file.
+This will generate search URLs using the company name `Google` and the default `github_dorking_keywords.txt` file.
 
 ### Custom Keywords File:
 
 If you have a custom list of dorking keywords (such as `api_key`, `password`, etc.), you can specify the file like this:
 
 ```bash
-python gitman.py AcmeCorp -f custom_keywords.txt
+python gitman.py Google -f custom_keywords.txt
 ```
 
 ### Example Output:
@@ -66,9 +64,13 @@ For each keyword in the file, the script generates a URL similar to:
 
 ```text
 Generated GitHub Search URLs:
-1 https://github.com/search?q=AcmeCorp+API+key+NOT+test+NOT+example
-2 https://github.com/search?q=AcmeCorp+password+NOT+test+NOT+example
-3 https://github.com/search?q=AcmeCorp+database+NOT+test+NOT+example
+1 https://github.com/search?q=Google+"api_key"+NOT+test+NOT+example
+2 https://github.com/search?q=Google+"api_key_secret"+NOT+test+NOT+example
+3 https://github.com/search?q=Google+"api_key_sid"+NOT+test+NOT+example
+4 https://github.com/search?q=Google+"api_secret"+NOT+test+NOT+example
+5 https://github.com/search?q=Google+"api.googlemaps+AIza"+NOT+test+NOT+example
+6 https://github.com/search?q=Google+"apidocs"+NOT+test+NOT+example
+7 https://github.com/search?q=Google+"apikey"+NOT+test+NOT+example
 ...
 ```
 
@@ -93,7 +95,7 @@ The input file should be a plain text file with one keyword per line. Empty line
 - The script constructs GitHub search queries by appending the provided company name and each keyword from the file.
 - It then generates search URLs like:
   ```
-  https://github.com/search?q=AcmeCorp+API+key+NOT+test+NOT+example
+  https://github.com/search?q=Google+API+key+NOT+test+NOT+example
   ```
 - The results filter out repositories related to "test" and "example" to help you focus on finding actual, potentially sensitive data.
 
