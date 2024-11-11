@@ -7,24 +7,24 @@ A tool for security researchers, penetration testers, and bug bounty hunters to 
 
 ## 🚀 Quick Start 🚀
 
-- **Installation**: [How to Install](#📦-Installation-📦)
-- **Usage**: [How to Use the Script](#usage)
-- **Ethical Considerations**: [What You Need to Know](#ethical-considerations)
-- **License**: [MIT License](#license)
+- **Installation**: [How to Install](#-Installation-)
+- **Usage**: [How to Use the Script](#-usage-)
+- **Ethical Considerations**: [What You Need to Know](#-ethical-considerations-)
+- **License**: [MIT License](#-license-)
 
 
 ## ⚙️ Table of Contents 🔍
 
-- [🚀 Quick Start](#-quick-start)
-- [💻 Features](#features)
-- [🔍 Use Cases](#use-cases)
-- [🛠 Installation](#installation)
-- [💡 Usage](#usage)
-- [📄 Input File Format](#input-file-format)
-- [🔧 How It Works](#how-it-works)
-- [⚖️ Ethical Considerations](#ethical-considerations)
-- [📜 License](#license)
-- [💬 Disclaimer](#disclaimer)
+- [🚀 Quick Start](#-quick-start-)
+- [💻 Features](#-features-)
+- [🔍 Use Cases](#-use-cases-)
+- [🛠 Installation](#-installation-)
+- [💡 Usage](#-usage-)
+- [📄 Input File Format](#-input-file-format-)
+- [🔧 How It Works](#-how-it-works-)
+- [⚖️ Ethical Considerations](#-ethical-considerations-)
+- [📜 License](#-license-)
+- [💬 Disclaimer](#-disclaimer-)
 
 ---
 
