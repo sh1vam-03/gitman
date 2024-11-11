@@ -101,6 +101,7 @@ Generated GitHub Search URLs:
 ```
 
 These URLs direct you to GitHub search results that contain the target company name and the dorking keyword, excluding irrelevant entries like "test" or "example".
+
 ---
 
 ### Input File Format
