@@ -9,7 +9,7 @@ A tool for security researchers, penetration testers, and bug bounty hunters to 
 
 - **Installation**: [How to Install](#-Installation-)
 - **Usage**: [How to Use the Script](#%EF%B8%8F-usage-%EF%B8%8F)
-- **Ethical Considerations**: [What You Need to Know](#-ethical-considerations-)
+- **Ethical Considerations**: [What You Need to Know](#%EF%B8%8F-ethical-considerations-%EF%B8%8F)
 - **License**: [MIT License](#-license-)
 
 
